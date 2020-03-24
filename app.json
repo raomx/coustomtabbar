@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/check/check",
+    "pages/order/order",
+    "pages/mine/mine"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#515151",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "images/message_icon.png",
+        "selectedIconPath": "images/message_icon_select.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/order_icon.png",
+        "selectedIconPath": "images/order_icon_select.png"
+      },
+      {
+        "pagePath": "pages/check/check",
+        "text": "入住",
+        "iconPath": "images/order_icon.png",
+        "selectedIconPath": "images/order_icon_select.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine_icon.png",
+        "selectedIconPath": "images/mine_icon_select.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
